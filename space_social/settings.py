@@ -20,7 +20,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-import secrete_key
+from . import secrete_key
 
 SECRET_KEY = secrete_key.secrete_key
 
