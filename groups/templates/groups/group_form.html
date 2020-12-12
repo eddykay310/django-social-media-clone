@@ -2,7 +2,7 @@
 {% load booststrap3 %}
 
 {% block group_content %}
-<h4> Create a new group</h4>
+<h4> Create a new Group</h4>
 <form action="{% url 'group:create %}'" method="POST" id="groupForm">
     {% csrf_token %}
     {% bootstrap_form form %}
